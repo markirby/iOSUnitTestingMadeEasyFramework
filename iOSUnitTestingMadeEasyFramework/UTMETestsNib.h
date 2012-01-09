@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol TestsNib <NSObject>
+@protocol UTMETestsNib <NSObject>
 
 - (void)testViewBinding;
 - (void)testUIButtonActionBinding;

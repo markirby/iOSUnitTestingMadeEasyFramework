@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6F869F7914BB5F0D008DB712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F869F7814BB5F0D008DB712 /* Foundation.framework */; };
 		6F869F7F14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F869F7E14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework.m */; };
-		6F869FE914BB7BA1008DB712 /* TestsNib.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F869FE814BB7BA1008DB712 /* TestsNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F869FE914BB7BA1008DB712 /* UTMETestsNib.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F869FE814BB7BA1008DB712 /* UTMETestsNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +18,7 @@
 		6F869F7C14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSUnitTestingMadeEasyFramework-Prefix.pch"; sourceTree = "<group>"; };
 		6F869F7D14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSUnitTestingMadeEasyFramework.h; sourceTree = "<group>"; };
 		6F869F7E14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSUnitTestingMadeEasyFramework.m; sourceTree = "<group>"; };
-		6F869FE814BB7BA1008DB712 /* TestsNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestsNib.h; sourceTree = "<group>"; };
+		6F869FE814BB7BA1008DB712 /* UTMETestsNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMETestsNib.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 		6F869FEB14BB7BA6008DB712 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				6F869FE814BB7BA1008DB712 /* TestsNib.h */,
+				6F869FE814BB7BA1008DB712 /* UTMETestsNib.h */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F869FE914BB7BA1008DB712 /* TestsNib.h in Headers */,
+				6F869FE914BB7BA1008DB712 /* UTMETestsNib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
