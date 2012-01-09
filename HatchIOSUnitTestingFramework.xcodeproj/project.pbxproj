@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F85549314BB34A100F96CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F85549214BB34A100F96CD3 /* Foundation.framework */; };
+		6F85549914BB34A100F96CD3 /* HatchIOSUnitTestingFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85549814BB34A100F96CD3 /* HatchIOSUnitTestingFramework.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F85548F14BB34A100F96CD3 /* libHatchIOSUnitTestingFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHatchIOSUnitTestingFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F85549214BB34A100F96CD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F85549614BB34A100F96CD3 /* HatchIOSUnitTestingFramework-Prefix.pch */ = {isa = PBXFileReference; path = "HatchIOSUnitTestingFramework-Prefix.pch"; sourceTree = "<group>"; };
+		6F85549714BB34A100F96CD3 /* HatchIOSUnitTestingFramework.h */ = {isa = PBXFileReference; path = HatchIOSUnitTestingFramework.h; sourceTree = "<group>"; };
+		6F85549814BB34A100F96CD3 /* HatchIOSUnitTestingFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HatchIOSUnitTestingFramework.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F85548C14BB34A100F96CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F85549314BB34A100F96CD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F85548414BB34A000F96CD3 = {
+			isa = PBXGroup;
+			children = (
+				6F85549414BB34A100F96CD3 /* HatchIOSUnitTestingFramework */,
+				6F85549114BB34A100F96CD3 /* Frameworks */,
+				6F85549014BB34A100F96CD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F85549014BB34A100F96CD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F85548F14BB34A100F96CD3 /* libHatchIOSUnitTestingFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F85549114BB34A100F96CD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F85549214BB34A100F96CD3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F85549414BB34A100F96CD3 /* HatchIOSUnitTestingFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6F85549714BB34A100F96CD3 /* HatchIOSUnitTestingFramework.h */,
+				6F85549814BB34A100F96CD3 /* HatchIOSUnitTestingFramework.m */,
+				6F85549514BB34A100F96CD3 /* Supporting Files */,
+			);
+			path = HatchIOSUnitTestingFramework;
+			sourceTree = "<group>";
+		};
+		6F85549514BB34A100F96CD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F85549614BB34A100F96CD3 /* HatchIOSUnitTestingFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F85548D14BB34A100F96CD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F85548E14BB34A100F96CD3 /* HatchIOSUnitTestingFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F85549C14BB34A100F96CD3 /* Build configuration list for PBXNativeTarget "HatchIOSUnitTestingFramework" */;
+			buildPhases = (
+				6F85548B14BB34A100F96CD3 /* Sources */,
+				6F85548C14BB34A100F96CD3 /* Frameworks */,
+				6F85548D14BB34A100F96CD3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HatchIOSUnitTestingFramework;
+			productName = HatchIOSUnitTestingFramework;
+			productReference = 6F85548F14BB34A100F96CD3 /* libHatchIOSUnitTestingFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F85548614BB34A000F96CD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Hatch;
+			};
+			buildConfigurationList = 6F85548914BB34A000F96CD3 /* Build configuration list for PBXProject "HatchIOSUnitTestingFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F85548414BB34A000F96CD3;
+			productRefGroup = 6F85549014BB34A100F96CD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F85548E14BB34A100F96CD3 /* HatchIOSUnitTestingFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F85548B14BB34A100F96CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F85549914BB34A100F96CD3 /* HatchIOSUnitTestingFramework.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F85549A14BB34A100F96CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F85549B14BB34A100F96CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F85549D14BB34A100F96CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HatchIOSUnitTestingFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HatchIOSUnitTestingFramework/HatchIOSUnitTestingFramework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6F85549E14BB34A100F96CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HatchIOSUnitTestingFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HatchIOSUnitTestingFramework/HatchIOSUnitTestingFramework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F85548914BB34A000F96CD3 /* Build configuration list for PBXProject "HatchIOSUnitTestingFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F85549A14BB34A100F96CD3 /* Debug */,
+				6F85549B14BB34A100F96CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F85549C14BB34A100F96CD3 /* Build configuration list for PBXNativeTarget "HatchIOSUnitTestingFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F85549D14BB34A100F96CD3 /* Debug */,
+				6F85549E14BB34A100F96CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F85548614BB34A000F96CD3 /* Project object */;
+}
