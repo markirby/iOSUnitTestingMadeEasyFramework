@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F869F7914BB5F0D008DB712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F869F7814BB5F0D008DB712 /* Foundation.framework */; };
+		6F869F7F14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F869F7E14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F869F7514BB5F0D008DB712 /* libiOSUnitTestingMadeEasyFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiOSUnitTestingMadeEasyFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F869F7814BB5F0D008DB712 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F869F7C14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSUnitTestingMadeEasyFramework-Prefix.pch"; sourceTree = "<group>"; };
+		6F869F7D14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSUnitTestingMadeEasyFramework.h; sourceTree = "<group>"; };
+		6F869F7E14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSUnitTestingMadeEasyFramework.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F869F7214BB5F0D008DB712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F869F7914BB5F0D008DB712 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F869F6A14BB5F0D008DB712 = {
+			isa = PBXGroup;
+			children = (
+				6F869F7A14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework */,
+				6F869F7714BB5F0D008DB712 /* Frameworks */,
+				6F869F7614BB5F0D008DB712 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F869F7614BB5F0D008DB712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F869F7514BB5F0D008DB712 /* libiOSUnitTestingMadeEasyFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F869F7714BB5F0D008DB712 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F869F7814BB5F0D008DB712 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F869F7A14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6F869F7D14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework.h */,
+				6F869F7E14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework.m */,
+				6F869F7B14BB5F0D008DB712 /* Supporting Files */,
+			);
+			path = iOSUnitTestingMadeEasyFramework;
+			sourceTree = "<group>";
+		};
+		6F869F7B14BB5F0D008DB712 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F869F7C14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F869F7314BB5F0D008DB712 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F869F7414BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F869F8214BB5F0D008DB712 /* Build configuration list for PBXNativeTarget "iOSUnitTestingMadeEasyFramework" */;
+			buildPhases = (
+				6F869F7114BB5F0D008DB712 /* Sources */,
+				6F869F7214BB5F0D008DB712 /* Frameworks */,
+				6F869F7314BB5F0D008DB712 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSUnitTestingMadeEasyFramework;
+			productName = iOSUnitTestingMadeEasyFramework;
+			productReference = 6F869F7514BB5F0D008DB712 /* libiOSUnitTestingMadeEasyFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F869F6C14BB5F0D008DB712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Hatch;
+			};
+			buildConfigurationList = 6F869F6F14BB5F0D008DB712 /* Build configuration list for PBXProject "iOSUnitTestingMadeEasyFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F869F6A14BB5F0D008DB712;
+			productRefGroup = 6F869F7614BB5F0D008DB712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F869F7414BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F869F7114BB5F0D008DB712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F869F7F14BB5F0D008DB712 /* iOSUnitTestingMadeEasyFramework.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F869F8014BB5F0D008DB712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F869F8114BB5F0D008DB712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F869F8314BB5F0D008DB712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOSUnitTestingMadeEasyFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSUnitTestingMadeEasyFramework/iOSUnitTestingMadeEasyFramework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6F869F8414BB5F0D008DB712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOSUnitTestingMadeEasyFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSUnitTestingMadeEasyFramework/iOSUnitTestingMadeEasyFramework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F869F6F14BB5F0D008DB712 /* Build configuration list for PBXProject "iOSUnitTestingMadeEasyFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F869F8014BB5F0D008DB712 /* Debug */,
+				6F869F8114BB5F0D008DB712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F869F8214BB5F0D008DB712 /* Build configuration list for PBXNativeTarget "iOSUnitTestingMadeEasyFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F869F8314BB5F0D008DB712 /* Debug */,
+				6F869F8414BB5F0D008DB712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F869F6C14BB5F0D008DB712 /* Project object */;
+}
